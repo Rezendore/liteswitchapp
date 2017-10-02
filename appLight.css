@@ -6,7 +6,6 @@ div
 	box-sizing:border-box;
 	padding:10px;
 	border:1px solid black;
-	background-color:white;
 }
 .on
 {
@@ -16,5 +15,10 @@ div
 .off
 {
 	color:red;
+	background-color:black;
+}
+
+body
+{
 	background-color:black;
 }

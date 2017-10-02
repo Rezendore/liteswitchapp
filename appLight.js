@@ -1,8 +1,15 @@
-function my(thing)
+function swapClass(myDiv)
 {
-	if(thing.classList.contains("on"))
+	if(myDiv.classList.contains("on"))
 	{
-		thing.className="off";
+		myDiv.className="off";
+		document.body.style.background="white";
+		myDiv.innerHTML="ON";
 	}
-	else thing.className="on";
+	else
+	{
+		myDiv.className="on";
+		document.body.style.background="black";
+		myDiv.innerHTML="OFF";
+	}
 }
