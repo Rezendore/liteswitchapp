@@ -1,10 +1,8 @@
-function myclik(var thing)
+function my(thing)
 {
-	if(thing.class=="on")
+	if(thing.classList.contains("on"))
 	{
-		thing.class="off";
-	}else
-	{
-		thing.class="on";
+		thing.className="off";
 	}
+	else thing.className="on";
 }
